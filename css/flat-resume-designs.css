@@ -1,0 +1,235 @@
+/* General Page */
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+.container {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>h4 {
+    padding-top: 5px;
+    padding-left: 10px;
+    margin: 0px;
+}
+.navbar-brand>img {
+    padding: 0px;
+}
+.navbar {
+    border-radius: 0px;
+    margin: 0px;
+}
+h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed';
+}
+h2 {
+    text-align: center;
+    font-family: 'Pacifico' cursive;
+    font-size: 36px;
+}
+/* Footer */
+
+#copy-right {
+    text-align: center;
+    /*22313F 34495E 2C3E50*/
+    background: #202020;
+    /*22313F*/
+    color: white;
+    padding: 7px;
+    margin-bottom: 0px;
+}
+#foot-info {
+    text-align: center;
+    /*22313F 34495E 2C3E50*/
+    background: #303030;
+    /*34495E*/
+    color: white;
+    padding: 25px;
+}
+#foot-info>i {
+    padding: 5px;
+    font-size: 10px;
+}
+/* Main Banner and Logo - First Section */
+
+#main-banner {
+    background: url(../media/skylineBnW.jpg) no-repeat;
+    /*background: url('./media/main-background.jpg');*/
+    background-size: 100% 100%;
+}
+#brand {
+    text-align: center;
+    font-family: 'Pacifico' cursive;
+    margin: 5%;
+    margin-bottom:0%;
+    padding-bottom:0%;
+}
+#brand>img {
+    height: 100%;
+    min-height: 400px;
+}
+/* Company Info */
+
+#the-what {
+    padding-top: 40px;
+    text-align: center;
+    background: #ECECEC;
+}
+#what-details {
+    margin: 15%;
+    margin-top: 0%;
+    font-size: 18px;
+    font-family: 'Open Sans Condensed';
+    padding: 20px;
+}
+/* Portfolio Section */
+
+#the-portfolio {
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #67809F;
+    color: white;
+}
+.thumbnail {
+    background: #ECECEC;
+}
+.caption>p,
+.caption>h3 {
+    color: #303030;
+}
+/* Services Offered */
+
+#the-services {
+    padding-top: 40px;
+    background: #303030;
+    color: white;
+}
+#services-details>.col-sm-2 {
+    padding: 0px;
+}
+#services-details {
+    margin: 0px;
+    margin-top: 5%;
+    margin-bottom: 12%;
+}
+/* Outreach Contact Form */
+
+#the-outreach {
+    padding-top: 40px;
+    background: #303030;
+    /*#ECECEC;*/
+    color: white;
+    min-height: 500px;
+    padding-bottom: 30px;
+}
+#contact-form {
+    margin: 40px;
+}
+.form-horizontal {
+    margin: 15px;
+}
+#contact-title {
+    margin-bottom: 35px;
+}
+#send-btn {
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    background: #CF000F;
+    border-color: #CF000F;
+}
+/* The Lab */
+
+#the-lab {
+    padding-top: 40px;
+    background: #ECECEC;
+    /*#ECECEC;*/
+    text-align: center;
+    padding-bottom: 40px;
+}
+#the-lab-details {
+    padding-bottom: 40px;
+    background: #ECECEC;
+    /*#ECECEC;*/
+    text-align: center;
+}
+#head-shot {
+    height: 200px;
+    border-radius: 190px;
+}
+#about-details {
+    font-family: 'Open Sans Condensed';
+}
+#profile-details {
+    font-family: 'Open Sans Condensed';
+    font-size: 16px;
+}
+h4 {
+    font-weight: bold;
+}
+@media (max-width: 580px) {
+    #brand>img {
+        height: 100%;
+        min-height: 350px;
+        width: 100%;
+    }
+    #brand {
+        margin-left: 0px;
+    }
+    #what-details {
+        margin: 0px;
+        margin-bottom: 15%;
+        margin-top: 0%;
+        font-size: 18px;
+        font-family: 'Open Sans Condensed';
+        padding: 20px;
+    }
+}
+.modal-btn {
+    background: #303030;
+    border-color: #303030;
+    border: 0px;
+}
+.col-sm-2 {
+    text-align: center;
+}
+.modal-btn:hover {
+    color: #67809F;
+}
+#services-details>.col-sm-2 {
+    padding-bottom: 35px;
+}
+
+#contact-body{
+    text-align:center;
+    padding:15px;
+}
+
+.panel{
+    text-align:left;
+}
+.panel-title{
+    text-align:center;
+}
+
+h5{
+    font-weight:bold;
+}
+
+#contact-body{
+    padding-top:0px;
+    font-family: 'Open Sans Condensed';
+}
+
+#prog-list{
+    padding-left:40%;
+}
